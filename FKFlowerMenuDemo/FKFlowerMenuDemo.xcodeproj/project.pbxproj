@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7337C962205E4A76003DCF51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7337C961205E4A76003DCF51 /* AppDelegate.m */; };
+		7337C965205E4A76003DCF51 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7337C964205E4A76003DCF51 /* ViewController.m */; };
+		7337C968205E4A76003DCF51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7337C966205E4A76003DCF51 /* Main.storyboard */; };
+		7337C96A205E4A76003DCF51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7337C969205E4A76003DCF51 /* Assets.xcassets */; };
+		7337C96D205E4A76003DCF51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7337C96B205E4A76003DCF51 /* LaunchScreen.storyboard */; };
+		7337C970205E4A76003DCF51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7337C96F205E4A76003DCF51 /* main.m */; };
+		7337C97A205E4A76003DCF51 /* FKFlowerMenuDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7337C979205E4A76003DCF51 /* FKFlowerMenuDemoTests.m */; };
+		7337C985205E4A76003DCF51 /* FKFlowerMenuDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7337C984205E4A76003DCF51 /* FKFlowerMenuDemoUITests.m */; };
+		7337C997205E4AB5003DCF51 /* FKFlowerMenuBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 7337C995205E4AB5003DCF51 /* FKFlowerMenuBtn.m */; };
+		7337C998205E4AB5003DCF51 /* FKFlowerMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7337C996205E4AB5003DCF51 /* FKFlowerMenuItem.m */; };
+		7337C99D205E4ABA003DCF51 /* Task_Addphoto_Btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 7337C99A205E4ABA003DCF51 /* Task_Addphoto_Btn.png */; };
+		7337C99E205E4ABA003DCF51 /* ic-addkr.png in Resources */ = {isa = PBXBuildFile; fileRef = 7337C99B205E4ABA003DCF51 /* ic-addkr.png */; };
+		7337C99F205E4ABA003DCF51 /* add_mytask_askr.png in Resources */ = {isa = PBXBuildFile; fileRef = 7337C99C205E4ABA003DCF51 /* add_mytask_askr.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7337C976205E4A76003DCF51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7337C955205E4A76003DCF51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7337C95C205E4A76003DCF51;
+			remoteInfo = FKFlowerMenuDemo;
+		};
+		7337C981205E4A76003DCF51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7337C955205E4A76003DCF51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7337C95C205E4A76003DCF51;
+			remoteInfo = FKFlowerMenuDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7337C95D205E4A76003DCF51 /* FKFlowerMenuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FKFlowerMenuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7337C960205E4A76003DCF51 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7337C961205E4A76003DCF51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7337C963205E4A76003DCF51 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7337C964205E4A76003DCF51 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7337C967205E4A76003DCF51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7337C969205E4A76003DCF51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7337C96C205E4A76003DCF51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7337C96E205E4A76003DCF51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7337C96F205E4A76003DCF51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7337C975205E4A76003DCF51 /* FKFlowerMenuDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FKFlowerMenuDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7337C979205E4A76003DCF51 /* FKFlowerMenuDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKFlowerMenuDemoTests.m; sourceTree = "<group>"; };
+		7337C97B205E4A76003DCF51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7337C980205E4A76003DCF51 /* FKFlowerMenuDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FKFlowerMenuDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7337C984205E4A76003DCF51 /* FKFlowerMenuDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKFlowerMenuDemoUITests.m; sourceTree = "<group>"; };
+		7337C986205E4A76003DCF51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7337C993205E4AB5003DCF51 /* FKFlowerMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKFlowerMenuItem.h; sourceTree = "<group>"; };
+		7337C994205E4AB5003DCF51 /* FKFlowerMenuBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKFlowerMenuBtn.h; sourceTree = "<group>"; };
+		7337C995205E4AB5003DCF51 /* FKFlowerMenuBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKFlowerMenuBtn.m; sourceTree = "<group>"; };
+		7337C996205E4AB5003DCF51 /* FKFlowerMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKFlowerMenuItem.m; sourceTree = "<group>"; };
+		7337C99A205E4ABA003DCF51 /* Task_Addphoto_Btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Task_Addphoto_Btn.png; sourceTree = "<group>"; };
+		7337C99B205E4ABA003DCF51 /* ic-addkr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic-addkr.png"; sourceTree = "<group>"; };
+		7337C99C205E4ABA003DCF51 /* add_mytask_askr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add_mytask_askr.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7337C95A205E4A76003DCF51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7337C972205E4A76003DCF51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7337C97D205E4A76003DCF51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7337C954205E4A76003DCF51 = {
+			isa = PBXGroup;
+			children = (
+				7337C95F205E4A76003DCF51 /* FKFlowerMenuDemo */,
+				7337C978205E4A76003DCF51 /* FKFlowerMenuDemoTests */,
+				7337C983205E4A76003DCF51 /* FKFlowerMenuDemoUITests */,
+				7337C95E205E4A76003DCF51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7337C95E205E4A76003DCF51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7337C95D205E4A76003DCF51 /* FKFlowerMenuDemo.app */,
+				7337C975205E4A76003DCF51 /* FKFlowerMenuDemoTests.xctest */,
+				7337C980205E4A76003DCF51 /* FKFlowerMenuDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7337C95F205E4A76003DCF51 /* FKFlowerMenuDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7337C999205E4ABA003DCF51 /* Picture */,
+				7337C992205E4AB5003DCF51 /* FKFloweMenu */,
+				7337C960205E4A76003DCF51 /* AppDelegate.h */,
+				7337C961205E4A76003DCF51 /* AppDelegate.m */,
+				7337C963205E4A76003DCF51 /* ViewController.h */,
+				7337C964205E4A76003DCF51 /* ViewController.m */,
+				7337C966205E4A76003DCF51 /* Main.storyboard */,
+				7337C969205E4A76003DCF51 /* Assets.xcassets */,
+				7337C96B205E4A76003DCF51 /* LaunchScreen.storyboard */,
+				7337C96E205E4A76003DCF51 /* Info.plist */,
+				7337C96F205E4A76003DCF51 /* main.m */,
+			);
+			path = FKFlowerMenuDemo;
+			sourceTree = "<group>";
+		};
+		7337C978205E4A76003DCF51 /* FKFlowerMenuDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7337C979205E4A76003DCF51 /* FKFlowerMenuDemoTests.m */,
+				7337C97B205E4A76003DCF51 /* Info.plist */,
+			);
+			path = FKFlowerMenuDemoTests;
+			sourceTree = "<group>";
+		};
+		7337C983205E4A76003DCF51 /* FKFlowerMenuDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7337C984205E4A76003DCF51 /* FKFlowerMenuDemoUITests.m */,
+				7337C986205E4A76003DCF51 /* Info.plist */,
+			);
+			path = FKFlowerMenuDemoUITests;
+			sourceTree = "<group>";
+		};
+		7337C992205E4AB5003DCF51 /* FKFloweMenu */ = {
+			isa = PBXGroup;
+			children = (
+				7337C994205E4AB5003DCF51 /* FKFlowerMenuBtn.h */,
+				7337C995205E4AB5003DCF51 /* FKFlowerMenuBtn.m */,
+				7337C993205E4AB5003DCF51 /* FKFlowerMenuItem.h */,
+				7337C996205E4AB5003DCF51 /* FKFlowerMenuItem.m */,
+			);
+			path = FKFloweMenu;
+			sourceTree = "<group>";
+		};
+		7337C999205E4ABA003DCF51 /* Picture */ = {
+			isa = PBXGroup;
+			children = (
+				7337C99A205E4ABA003DCF51 /* Task_Addphoto_Btn.png */,
+				7337C99B205E4ABA003DCF51 /* ic-addkr.png */,
+				7337C99C205E4ABA003DCF51 /* add_mytask_askr.png */,
+			);
+			path = Picture;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7337C95C205E4A76003DCF51 /* FKFlowerMenuDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7337C989205E4A76003DCF51 /* Build configuration list for PBXNativeTarget "FKFlowerMenuDemo" */;
+			buildPhases = (
+				7337C959205E4A76003DCF51 /* Sources */,
+				7337C95A205E4A76003DCF51 /* Frameworks */,
+				7337C95B205E4A76003DCF51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FKFlowerMenuDemo;
+			productName = FKFlowerMenuDemo;
+			productReference = 7337C95D205E4A76003DCF51 /* FKFlowerMenuDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7337C974205E4A76003DCF51 /* FKFlowerMenuDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7337C98C205E4A76003DCF51 /* Build configuration list for PBXNativeTarget "FKFlowerMenuDemoTests" */;
+			buildPhases = (
+				7337C971205E4A76003DCF51 /* Sources */,
+				7337C972205E4A76003DCF51 /* Frameworks */,
+				7337C973205E4A76003DCF51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7337C977205E4A76003DCF51 /* PBXTargetDependency */,
+			);
+			name = FKFlowerMenuDemoTests;
+			productName = FKFlowerMenuDemoTests;
+			productReference = 7337C975205E4A76003DCF51 /* FKFlowerMenuDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7337C97F205E4A76003DCF51 /* FKFlowerMenuDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7337C98F205E4A76003DCF51 /* Build configuration list for PBXNativeTarget "FKFlowerMenuDemoUITests" */;
+			buildPhases = (
+				7337C97C205E4A76003DCF51 /* Sources */,
+				7337C97D205E4A76003DCF51 /* Frameworks */,
+				7337C97E205E4A76003DCF51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7337C982205E4A76003DCF51 /* PBXTargetDependency */,
+			);
+			name = FKFlowerMenuDemoUITests;
+			productName = FKFlowerMenuDemoUITests;
+			productReference = 7337C980205E4A76003DCF51 /* FKFlowerMenuDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7337C955205E4A76003DCF51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = fukang;
+				TargetAttributes = {
+					7337C95C205E4A76003DCF51 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					7337C974205E4A76003DCF51 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7337C95C205E4A76003DCF51;
+					};
+					7337C97F205E4A76003DCF51 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7337C95C205E4A76003DCF51;
+					};
+				};
+			};
+			buildConfigurationList = 7337C958205E4A76003DCF51 /* Build configuration list for PBXProject "FKFlowerMenuDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7337C954205E4A76003DCF51;
+			productRefGroup = 7337C95E205E4A76003DCF51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7337C95C205E4A76003DCF51 /* FKFlowerMenuDemo */,
+				7337C974205E4A76003DCF51 /* FKFlowerMenuDemoTests */,
+				7337C97F205E4A76003DCF51 /* FKFlowerMenuDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7337C95B205E4A76003DCF51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7337C99D205E4ABA003DCF51 /* Task_Addphoto_Btn.png in Resources */,
+				7337C99F205E4ABA003DCF51 /* add_mytask_askr.png in Resources */,
+				7337C96D205E4A76003DCF51 /* LaunchScreen.storyboard in Resources */,
+				7337C96A205E4A76003DCF51 /* Assets.xcassets in Resources */,
+				7337C968205E4A76003DCF51 /* Main.storyboard in Resources */,
+				7337C99E205E4ABA003DCF51 /* ic-addkr.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7337C973205E4A76003DCF51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7337C97E205E4A76003DCF51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7337C959205E4A76003DCF51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7337C998205E4AB5003DCF51 /* FKFlowerMenuItem.m in Sources */,
+				7337C965205E4A76003DCF51 /* ViewController.m in Sources */,
+				7337C997205E4AB5003DCF51 /* FKFlowerMenuBtn.m in Sources */,
+				7337C970205E4A76003DCF51 /* main.m in Sources */,
+				7337C962205E4A76003DCF51 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7337C971205E4A76003DCF51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7337C97A205E4A76003DCF51 /* FKFlowerMenuDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7337C97C205E4A76003DCF51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7337C985205E4A76003DCF51 /* FKFlowerMenuDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7337C977205E4A76003DCF51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7337C95C205E4A76003DCF51 /* FKFlowerMenuDemo */;
+			targetProxy = 7337C976205E4A76003DCF51 /* PBXContainerItemProxy */;
+		};
+		7337C982205E4A76003DCF51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7337C95C205E4A76003DCF51 /* FKFlowerMenuDemo */;
+			targetProxy = 7337C981205E4A76003DCF51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7337C966205E4A76003DCF51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7337C967205E4A76003DCF51 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7337C96B205E4A76003DCF51 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7337C96C205E4A76003DCF51 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7337C987205E4A76003DCF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7337C988205E4A76003DCF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7337C98A205E4A76003DCF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FKFlowerMenuDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FKFlowerMenuDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7337C98B205E4A76003DCF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FKFlowerMenuDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FKFlowerMenuDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7337C98D205E4A76003DCF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FKFlowerMenuDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FKFlowerMenuDemo.FKFlowerMenuDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FKFlowerMenuDemo.app/FKFlowerMenuDemo";
+			};
+			name = Debug;
+		};
+		7337C98E205E4A76003DCF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FKFlowerMenuDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FKFlowerMenuDemo.FKFlowerMenuDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FKFlowerMenuDemo.app/FKFlowerMenuDemo";
+			};
+			name = Release;
+		};
+		7337C990205E4A76003DCF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FKFlowerMenuDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FKFlowerMenuDemo.FKFlowerMenuDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FKFlowerMenuDemo;
+			};
+			name = Debug;
+		};
+		7337C991205E4A76003DCF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FKFlowerMenuDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FKFlowerMenuDemo.FKFlowerMenuDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FKFlowerMenuDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7337C958205E4A76003DCF51 /* Build configuration list for PBXProject "FKFlowerMenuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7337C987205E4A76003DCF51 /* Debug */,
+				7337C988205E4A76003DCF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7337C989205E4A76003DCF51 /* Build configuration list for PBXNativeTarget "FKFlowerMenuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7337C98A205E4A76003DCF51 /* Debug */,
+				7337C98B205E4A76003DCF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7337C98C205E4A76003DCF51 /* Build configuration list for PBXNativeTarget "FKFlowerMenuDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7337C98D205E4A76003DCF51 /* Debug */,
+				7337C98E205E4A76003DCF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7337C98F205E4A76003DCF51 /* Build configuration list for PBXNativeTarget "FKFlowerMenuDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7337C990205E4A76003DCF51 /* Debug */,
+				7337C991205E4A76003DCF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7337C955205E4A76003DCF51 /* Project object */;
+}

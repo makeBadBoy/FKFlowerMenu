@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eCp-GH-vQN" customClass="FKFlowerMenuBtn">
+                                <rect key="frame" x="69" y="484" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="ic-addkr.png"/>
+                                <connections>
+                                    <action selector="leftShowFlowers:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pTi-rz-CCB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kec-jW-zEc" customClass="FKFlowerMenuBtn">
+                                <rect key="frame" x="281" y="484" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="ic-addkr.png"/>
+                                <connections>
+                                    <action selector="rightShowFlowers:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6bb-Eh-sCg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1nN-aI-eQn" customClass="FKFlowerMenuBtn">
+                                <rect key="frame" x="281" y="199" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="ic-addkr.png"/>
+                                <connections>
+                                    <action selector="rightShowFlowers2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tZJ-hp-wNY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Acf-LT-j2r" customClass="FKFlowerMenuBtn">
+                                <rect key="frame" x="69" y="199" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="ic-addkr.png"/>
+                                <connections>
+                                    <action selector="leftShowFlowers2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JWh-xp-v4N"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="leftFlowersBtn" destination="eCp-GH-vQN" id="IZj-5j-gBb"/>
+                        <outlet property="leftFlowersBtn2" destination="Acf-LT-j2r" id="pZY-sB-zsZ"/>
+                        <outlet property="rightFlowersBtn" destination="kec-jW-zEc" id="0TW-iJ-lCR"/>
+                        <outlet property="rightFlowersBtn2" destination="1nN-aI-eQn" id="chm-u5-NOo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-230" y="-9"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ic-addkr.png" width="90" height="90"/>
+    </resources>
+</document>
